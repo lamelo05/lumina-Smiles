@@ -1,0 +1,6 @@
+{
+  "name": "Dental Booking Portal",
+  "description": "A professional dental clinic website for advertising services, allowing patients to book appointments, and providing a dedicated staff area to manage appointments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

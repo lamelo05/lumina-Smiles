@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Georgia", serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-natural-primary: #5A5A40;
+  --color-natural-secondary: #D4D9C1;
+  --color-natural-bg-light: #fdfdfb;
+  --color-natural-bg-gray: #f7f7f2;
+  --color-natural-border: #e5e5dc;
+  --color-natural-text-dark: #33332d;
+  --color-natural-text-muted: #7a7a6b;
+  --color-natural-text-gray: #9a9a8b;
+  --color-natural-title: #2d2d24;
+}
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+}
+
